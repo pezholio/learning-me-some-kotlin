@@ -18,6 +18,13 @@ spring:
       test:
         - "stdout"
 
+  datasource:
+    url: jdbc:postgresql://${postgres.host:localhost:5432}/${postgres.dbname:learning_me_some_kotlin}
+    driver-class-name: org.postgresql.Driver
+
+  flyway:
+    enabled: true
+
 server:
   port: 8080
   servlet:
