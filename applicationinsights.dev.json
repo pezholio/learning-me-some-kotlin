@@ -1,6 +1,6 @@
 {
   "role": {
-    "name": "hmpps-template-kotlin"
+    "name": "learning-me-some-kotlin"
   },
   "customDimensions": {
     "service.version": "${BUILD_NUMBER}"
